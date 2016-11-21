@@ -1,6 +1,10 @@
 Ilhem Badreddine.
-TP1 OTI.
+Master E-services FA.
+TP1 OTI. JUNIT
 
-Utilisation des mock dans la classe MoneySimpleAddTestCase.
 
+Tâches faites :
+- Créer un nouvel classe de test MoneySimpleAddTestCase.
+- Verify avec times OK.
+- Verify avec inorder OK, aprés avoir changer _equals en utilisant "&" pour forcer la verification des deux paramètres.
 

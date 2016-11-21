@@ -26,9 +26,17 @@ public class Money {
     }
     
     /**
-     * La méthode _equals
+     * La methode _equals
      */
     public boolean _equals(Object o){
-    	return this.getValue()==((Money)o).getValue() && this.getCurrency()==((Money)o).getCurrency(); 
+    	return ((this.getValue()==((Money)o).getValue())
+    			& (this.getCurrency().equals(((Money)o).getCurrency()))); 
+    }
+    
+    /**
+     * La methode equals
+     */
+    public boolean equals(Object o){
+    	return _equals(o); 
     }
 }

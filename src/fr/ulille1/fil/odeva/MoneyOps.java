@@ -20,10 +20,4 @@ public class MoneyOps {
     Money m=mf.createMoney(m1.getValue()+m2.getValue(),m1.getCurrency());
     return m;
   }
-
-  /**
-   * Equals
-   */
-  
- 
 }
